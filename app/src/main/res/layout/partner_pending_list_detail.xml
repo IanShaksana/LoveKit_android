@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/round_edit_text"
+    >
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="15%"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_person_black_24dp">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="85%"
+            android:layout_margin="5dp">
+            <TextView
+                android:fontFamily="@font/poppins_regular"
+                android:id="@+id/partner_list_detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/poppins_regular"
+                android:id="@+id/partner_list_detail_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</LinearLayout>

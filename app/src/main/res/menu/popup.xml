@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.adrian.grouptaskmanagement.MainActivity">
+    <item
+        android:id="@+id/Remove"
+        android:title="Remove"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+    <item
+        android:id="@+id/Yes"
+        android:orderInCategory="100"
+        android:title="Approve"
+        android:icon="@drawable/thumb_up" />
+    <item
+        android:id="@+id/No"
+        android:orderInCategory="100"
+        android:title="Disapprove"
+        android:icon="@drawable/thumb_down" />
+</menu>

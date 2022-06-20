@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg_judulatas"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/title_profile"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:shadowColor="#adad85"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.5"
+                android:text="Tentang Aku"
+                android:textColor="#526c97"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                app:flexDirection="row">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:flexDirection="column">
+
+                    <ImageView
+                        android:id="@+id/propic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/placeholder_img"
+                        app:layout_flexBasisPercent="70%" />
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:flexDirection="row"
+                        app:layout_flexBasisPercent="30%"
+                        app:alignItems="flex_start"
+                        app:alignContent="stretch"
+                        >
+
+                        <Button
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/change_pic"
+                            style="@style/RndBtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ubah Foto Profil"
+                            />
+
+
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:flexDirection="column">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        app:layout_flexBasisPercent="70%">
+
+                        <!-- Title, secondary and supporting text -->
+                        <TextView
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/profile_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="This is Name"
+                            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                        <TextView
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/profile_detail1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="This is nickname"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary" />
+
+                        <TextView
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/profile_detail2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="This is gender"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary" />
+
+                        <TextView
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/profile_detail3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="This is DOB"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary" />
+
+                        <TextView
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/profile_detail4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="type"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary" />
+
+                        <TextView
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/profile_detail5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="telepon"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary" />
+
+                        <TextView
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/profile_detail6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="email"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary" />
+
+                    </LinearLayout>
+
+
+                    <!-- Buttons -->
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:flexDirection="row"
+                        app:layout_flexBasisPercent="30%"
+                        app:alignItems="flex_start"
+                        app:alignContent="center">
+
+                        <Button
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/edit_profile"
+                            style="@style/RndBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:text="Edit Profil"
+                            app:layout_flexBasisPercent="50%" />
+
+                        <Button
+                            android:fontFamily="@font/poppins_regular"
+                            android:id="@+id/change_password"
+                            android:textSize="12sp"
+                            style="@style/RndBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ubah Kata Sandi"
+                            app:layout_flexBasisPercent="50%" />
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+
+            </com.google.android.flexbox.FlexboxLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/progress_circular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true">
+        </ProgressBar>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_judulatas"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#adad85"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:fontFamily="@font/poppins_semibold" android:text="Komitmenku"
+            android:textColor="#526c97"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flexDirection="column">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="row"
+            app:layout_flexBasisPercent="33%">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border4"
+                app:flexDirection="column">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_komitmenku_word"
+                    app:layout_flexBasisPercent="75%"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_flexBasisPercent="25%"
+                    android:background="@drawable/border1a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#526c97"
+                        android:text="Kata-Kata Pendukung"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/touch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border4"
+                app:flexDirection="column">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_komitmenku_touch"
+                    app:layout_flexBasisPercent="75%"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_flexBasisPercent="25%"
+                    android:background="@drawable/border1a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#526c97"
+                        android:text="Sentuhan Fisik"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="row"
+            app:layout_flexBasisPercent="33%">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/quality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border4"
+                app:flexDirection="column">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_komitmenku_qtime"
+                    app:layout_flexBasisPercent="75%"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_flexBasisPercent="25%"
+                    android:background="@drawable/border1a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#526c97"
+                        android:text="Waktu Berkualitas"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/gift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border4"
+                app:flexDirection="column">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_komitmenku_gift"
+                    app:layout_flexBasisPercent="75%"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_flexBasisPercent="25%"
+                    android:background="@drawable/border1a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#526c97"
+                        android:text="Hadiah"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="row"
+            app:layout_flexBasisPercent="33%">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border4"
+                app:flexDirection="column">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_komitmenku_service"
+                    app:layout_flexBasisPercent="75%"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_flexBasisPercent="25%"
+                    android:background="@drawable/border1a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#526c97"
+                        android:text="Pelayanan"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/custom_task"
+                style="@style/RndBtn"
+                android:fontFamily="@font/poppins_regular"
+                android:src="@drawable/ic_add_black_24dp"
+                android:text="Komitmen Versi Aku"
+                android:textSize="25sp"
+                android:layout_margin="10dp">
+            </Button>
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

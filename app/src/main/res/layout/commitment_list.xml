@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_judulatas"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/Judul_komitmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#adad85"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Komitmenku"
+            android:textColor="#526c97"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="column">
+
+
+            <ImageView
+                android:id="@+id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center|bottom"
+                android:gravity="center"
+                android:src="@drawable/quotes_komitmenku"
+                android:text="@string/list_kosong"
+                android:textColor="#526c97" />
+
+            <ListView
+                android:id="@+id/commitment_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:dividerHeight="5dp">
+            </ListView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_commitment"
+                android:layout_margin="10dp"
+                android:layout_gravity="bottom|right"
+                android:backgroundTint="#526c97"
+                app:fabSize="mini"
+                android:src="@drawable/icon_komitmenku_tandapluss"/>
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

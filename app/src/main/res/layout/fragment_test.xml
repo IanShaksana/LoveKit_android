@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fry_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="column">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_flexBasisPercent="45%"
+                app:flexDirection="column"
+                app:justifyContent="center">
+                <TextView
+                    android:id="@+id/pertanyaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_margin="15dp"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center">
+                </TextView>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_below="@+id/pertanyaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_flexBasisPercent="45%"
+                app:alignItems="center"
+                app:flexDirection="row">
+                <Button
+                    android:fontFamily="@font/poppins_regular"
+                    android:id="@+id/yes"
+                    style="@style/TestBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pertanyaan"
+                    android:text="Sering"
+                    android:layout_margin="5dp"
+                    app:layout_flexBasisPercent="50%"/>
+
+                <Button
+                    android:fontFamily="@font/poppins_regular"
+                    android:id="@+id/no"
+                    style="@style/TestBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pertanyaan"
+                    android:text="Jarang/ \nTidak Pernah"
+                    android:layout_margin="5dp"
+                    app:layout_flexBasisPercent="50%"/>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_below="@+id/pertanyaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_flexBasisPercent="10%"
+                app:alignItems="center"
+                app:flexDirection="row">
+                <TextView
+                    android:textColor="#526c97"
+                    android:fontFamily="@font/poppins_regular"
+                    android:id="@+id/num_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_flexBasisPercent="45%"
+                    android:textAlignment="viewEnd"
+                    android:gravity="end">
+
+                </TextView>
+
+                <ImageView
+                    android:src="@drawable/round_button"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="5dp"
+                    android:layout_height="30dp" />
+
+
+                <TextView
+                    android:textColor="#526c97"
+                    android:fontFamily="@font/poppins_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="25"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    app:layout_flexBasisPercent="45%"
+                    android:gravity="start">
+                </TextView>
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+
+
+
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+
+
+
+</FrameLayout>

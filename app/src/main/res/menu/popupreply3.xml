@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.adrian.grouptaskmanagement.MainActivity">
+    <item
+        android:id="@+id/View_detail_job"
+        android:title="View Job"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+
+    <item
+        android:id="@+id/View_detail_task"
+        android:title="View task"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+
+    <item
+        android:id="@+id/Accept_job"
+        android:title="Accept Job"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+
+    <item
+        android:id="@+id/Reject_task"
+        android:title="Reject Job"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+
+</menu>

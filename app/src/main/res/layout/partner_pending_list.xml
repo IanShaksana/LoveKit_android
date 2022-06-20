@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_judulatas"
+        android:padding="20dp">
+
+        <TextView
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#adad85"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Permintaan Partner"
+            android:textColor="#526c97"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/partner_list"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+        </ListView>
+
+
+
+</LinearLayout>

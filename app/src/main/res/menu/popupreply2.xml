@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.adrian.grouptaskmanagement.MainActivity">
+    <item
+        android:id="@+id/View_Task"
+        android:title="View Task"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+
+    <item
+        android:id="@+id/Accept_Assign"
+        android:title="Accept Task"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+
+    <item
+        android:id="@+id/Reject_Assign"
+        android:title="Reject Task"
+        android:icon="@drawable/ic_clear_black_24dp"/>
+
+</menu>

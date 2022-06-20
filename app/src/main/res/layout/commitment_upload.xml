@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg_judulatas"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:shadowColor="#adad85"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.5"
+                android:text="Komitmenku"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="#526c97"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="column">
+
+            <ImageView
+                android:id="@+id/prove_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_flexBasisPercent="60%">
+            </ImageView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Open_Camera"
+                android:fontFamily="@font/poppins_regular"
+                style="@style/RndBtn"
+                android:text="Unggah Bukti Foto"
+                android:layout_margin="10dp">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/send_prove"
+                android:fontFamily="@font/poppins_regular"
+                style="@style/RndBtn"
+                android:text="Kirim"
+                android:layout_margin="10dp">
+            </Button>
+
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <RelativeLayout
+            android:id="@+id/progress_circular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"></ProgressBar>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

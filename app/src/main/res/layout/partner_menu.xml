@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_judulatas"
+        android:padding="20dp">
+
+        <TextView
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#adad85"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Tentang Partnerku"
+            android:textColor="#526c97"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_partner"
+        style="@style/RndBtn"
+        android:text="Undang Partner"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accept_partner"
+        style="@style/RndBtn"
+        android:text="Terima Partner"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/partner_profile"
+        style="@style/RndBtn"
+        android:text="Lihat Profil Partner"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/partner_commitment"
+        style="@style/RndBtn"
+        android:text="Komitmen Partner"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/del_partner"
+        style="@style/RndBtn"
+        android:text="Hapus Partner"
+        android:layout_margin="10dp">
+    </Button>
+
+
+
+</LinearLayout>

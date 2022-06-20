@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">LoveKit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ip_address_local_kantor">http://192.168.0.100:8082/api/michelle/</string>
+    <string name="ip_address_local">http://192.168.43.138:8082/api/michelle/</string>
+    <string name="ip_address_do">http://206.189.32.21:8082/api/michelle/</string>
+    <string name="yes_no_retake">Are you sure, this will rewrite your previous result ?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Lorem Ipsum</string>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo eleifend erat ut venenatis. Nam tristique nibh nisl, ut efficitur enim finibus quis. Nam scelerisque velit eu neque elementum, ac fermentum lectus laoreet. Curabitur vitae orci a massa congue pellentesque. Ut tempus ac urna a maximus. Sed ante magna, imperdiet ac nibh non, sodales faucibus odio. Cras non vestibulum nibh, sit amet convallis enim. Etiam vel pellentesque purus, eu viverra elit.</string>
+
+    <string name="opening3">\"Kira-kira apa ya bahasa kasih utamaku?\"\n Yuk, cari tahu disini!</string>
+    <string name="list_kosong">Ketika tekad dan usaha mulai goyah,\nDi situ komitmen berbicara\n\"jangan\"menyerah.</string>
+
+    <string name="pertanyaan1">Mengirimkan teks atau pesan singkat berisi kata-kata penuh kasih kepada seseorang, tanpa adanya alasan atau momen khusus.</string>
+    <string name="pertanyaan2">Merasa sangat senang ketika mendapatkan hadiah yang dipilih secara hati-hati oleh orang yang kukasihi.</string>
+    <string name="pertanyaan3">Melakukan sesuatu bagi orang lain yang memerlukan waktu, usaha, dan energi.</string>
+    <string name="pertanyaan4">Senang berada dekat dengan orang yang kukasihi, sekalipun kami tidak melakukan apa-apa.</string>
+    <string name="pertanyaan5">Mudah menyentuh orang lain untuk menunjukkan kedekatan dan keterbukaan, seperti: berjabat tangan, merangkul, memegang pundak, atau memeluk. </string>
+    <string name="pertanyaan6">Mengeluarkan kata-kata membangun untuk menyemangati orang yang kukasihi.</string>
+    <string name="pertanyaan7">Senang membeli atau membuat sesuatu untuk diberikan kepada orang lain.</string>
+    <string name="pertanyaan8">Merasa sangat senang ketika orang yang kukasihi melakukan sesuatu yang tidak terduga untuk membantuku dalam suatu pekerjaan.</string>
+    <string name="pertanyaan9">Mampu mendengarkan orang lain dengan penuh perhatian tanpa melakukan aktivitas lain.</string>
+    <string name="pertanyaan10">Menganggap bahwa sentuhan fisik merupakan komunikator cinta yang kuat.</string>
+    <string name="pertanyaan11">Mudah memuji orang lain sebagai bentuk apresiasi.</string>
+    <string name="pertanyaan12">Menganggap bahwa salah satu tanda kasih harus dibuktikan lewat adanya pemberian, misalnya: kado, uang, barang atau makanan.</string>
+    <string name="pertanyaan13">Melakukan pekerjaan-pekerjaan praktis bagi orang lain untuk menunjukkan kasih, misalnya: membukakan pintu, membuatkan secangkir teh, atau mengangkatkan barang.</string>
+    <string name="pertanyaan14">Merasa sangat senang ketika orang yang kukasihi menyediakan waktu untuk mendengarkan aku dan benar-benar mengerti perasaanku.</string>
+    <string name="pertanyaan15">Senang berbagi sentuhan berarti di depan publik dengan orang yang kukasihi, misalnya berpegangan tangan dan merangkul.</string>
+    <string name="pertanyaan16">Merasa sangat senang ketika orang yang kukasihi berkata “Aku bangga padamu”</string>
+    <string name="pertanyaan17">Memberi barang atau bingkisan kepada orang yang kukasihi tanpa ada momen khusus sebagai bentuk perhatian.</string>
+    <string name="pertanyaan18">Menganggap bahwa tanda kasih lebih bisa dibuktikan melalui bantuan nyata dibandingkan kata-kata penguatan.</string>
+    <string name="pertanyaan19">Menghabiskan waktu santai dengan orang-orang yang kukasihi tanpa terganggu.</string>
+    <string name="pertanyaan20">Merasa terhubung dengan orang yang kukasihi lewat pelukan.</string>
+    <string name="pertanyaan21">Memiliki cara bicara yang ramah dan bersahabat agar orang lain tidak tersinggung atau tersakiti.</string>
+    <string name="pertanyaan22">Senang sekali menerima suatu pemberian dari seseorang tanpa memandang nilai dan bentuknya.</string>
+    <string name="pertanyaan23">Merasa sangat senang ketika orang yang kukasihi membantuku, bahkan saat aku tahu mereka sendiri sedang sibuk.</string>
+    <string name="pertanyaan24">Menikmati perbincangan dengan orang lain dalam waktu yang lama guna berbagi pengalaman, pikiran, dan perasaan.</string>
+    <string name="pertanyaan25">Merasa kurang dikasihi jika tidak mendapatkan sentuhan fisik dari orang-orang terdekat, seperti: dipeluk, dipegang tangan atau pundaknya.</string>
+
+
+    <string name="penjelasan_word1">Kata-kata punya kuasa.
+Kuasa untuk menguatkan atau menjatuhkan.
+Orang dengan bahasa kasih kata-kata
+pendukung akan merasa dikasihi ketika
+menerima perkataan positif yang tulus.
+Perkataan positif yang mampu memberikan
+motivasi maupun membesarkan hati.
+</string>
+    <string name="penjelasan_word2">Sebaliknya, mereka juga paling rentan
+terhadap kata-kata yang menyakitkan atau
+mematahkan semangat.
+</string>
+    <string name="suggestion_word1">\u2022 Memuji orang yang dikasihi sebagai bentuk apresiasi/penghargaan</string>
+    <string name="suggestion_word2">\u2022 Mengatakan alasan mengapa senang punya teman/pasangan seperti dia</string>
+    <string name="suggestion_word3">\u2022 Menyemangati orang yang dikasihi</string>
+    <string name="suggestion_word4">\u2022 Mengirim chat berisi kata-kata penuh kasih</string>
+    <string name="warning_word1">\u2022 Ejekan/hinaan\n\u2022 Kritik yang berlebihan\n\u2022 Tidak mengakui/menghargai usaha</string>
+    <string name="warning_word2">\u2022 Kritik yang berlebihan</string>
+    <string name="warning_word3">\u2022 Tidak mengakui/menghargai usaha</string>
+
+
+    <string name="penjelasan_gift1">Momen khusus tidak akan terasa spesial tanpa adanya pemberian atau hadiah.
+Selain itu, suatu pemberian kecil di luar
+momen khusus juga bisa ditangkap sebagai
+bentuk perhatian dan kasih sayang.</string>
+    <string name="penjelasan_gift2">Bagi orang yang bahasa kasihnya hadiah,
+nilai dan bentuk pemberian bukanlah
+yang terpenting.
+Namun usaha dan maksud dibaliknya.</string>
+    <string name="suggestion_gift1">\u2022 Memberi kado saat ulang tahun atau
+perayaan khusus</string>
+    <string name="suggestion_gift2">\u2022 Memberi hadiah atas suatu pencapaian</string>
+    <string name="suggestion_gift3">\u2022 Membelikan makanan kesukaan orang
+yang dikasihi</string>
+    <string name="suggestion_gift4">\u2022 Memberi oleh-oleh atau kenang-kenangan</string>
+    <string name="warning_gift1">\u2022 Lupa akan momen khusus beserta hadiahnya\n\u2022 Hadiah yang tidak bermakna</string>
+    <string name="warning_gift2">\u2022 Hadiah yang tidak bermakna</string>
+
+
+    <string name="penjelasan_service1">Tindakan nyata selalu berbicara lebih kuat daripada sekedar kata-kata.
+Itulah prinsip yang dipegang oleh orang dengan bahasa kasih pelayanan.</string>
+    <string name="penjelasan_service2">Sangat berarti bagi mereka,
+ketika seseorang mau berkorban untuk
+memberi bantuan dengan senang hati
+tanpa diminta atau disuruh.</string>
+    <string name="suggestion_service1">\u2022 Membantu membereskan ruangan</string>
+    <string name="suggestion_service2">\u2022 Membuatkan makanan/minuman</string>
+    <string name="suggestion_service3">\u2022 Melakukan sesuatu tanpa perlu diminta</string>
+    <string name="suggestion_service4">\u2022 Membantu dalam suatu pekerjaan</string>
+    <string name="warning_service1">\u2022 Kemalasan\n\u2022 Tidak menepati janji\n\u2022 Menambah beban/tanggung jawab
+orang yang dikasihi</string>
+    <string name="warning_service2"></string>
+    <string name="warning_service3">\u2022 Menambah beban/tangggung jawab orang yang dikasihi</string>
+
+
+    <string name="penjelasan_time1">Hal yang paling berarti bagi orang dengan
+bahasa kasih waktu berkualitas adalah
+bisa menghabiskan waktu bersama
+orang-orang terkasih tanpa gangguan.</string>
+    <string name="penjelasan_time2">Sangat membahagiakan ketika mereka
+mendapat perhatian penuh atas apa yang
+sedang mereka bicarakan atau lakukan.</string>
+    <string name="suggestion_time1">\u2022 Dengan sengaja meluangkan waktu untuk berdua</string>
+    <string name="suggestion_time2">\u2022 Berlibur/olahraga bersama</string>
+    <string name="suggestion_time3">\u2022 Bertemu untuk makan siang bersama</string>
+    <string name="suggestion_time4">\u2022 Pembicaraan yang berkualitas</string>
+    <string name="warning_time1">\u2022 Melakukan aktivitas lain saat sedang bersama, misalnya: sambil bermain HP\n\u2022 Menunda aktivitas bersama yang telah direncanakan</string>
+    <string name="warning_time2">\u2022 Menunda aktivitas bersama yang telah direncanakan</string>
+
+
+    <string name="penjelasan_touch1">Kehadiran dan sentuhan secara fisik
+sangatlah penting.
+
+Bagi orang yang bahasa kasihnya sentuhan
+fisik, sebuah kehadiran atau sentuhan dapat
+berbicara lebih dalam.
+Berbicara tentang tanda kasih sayang dan
+penerimaan.</string>
+    <string name="penjelasan_touch2">Tentu saja sentuhan fisik yang dimaksud
+adalah sentuhan yang sopan dan tepat
+pada waktunya.</string>
+    <string name="suggestion_touch1">\u2022 Duduk berdekatan</string>
+    <string name="suggestion_touch2">\u2022 Bergandengan tangan</string>
+    <string name="suggestion_touch3">\u2022 Bermain dengan rambutnya</string>
+    <string name="suggestion_touch4">\u2022 Memberi pijatan</string>
+    <string name="warning_touch1">\u2022 Mengabaikan orang yang dikasihi\n\u2022 Sentuhan yang tidak diizinkan/diinginkan\n\u2022 Penganiayaan secara fisik</string>
+    <string name="warning_touch2"></string>
+    <string name="warning_touch3">\u2022 Penganiayaan secara fisik</string>
+
+    <string name="underlined_text"><u>Register</u></string>
+
+    <string name="title_word1">Menyemangati lewat chat</string>
+    <string name="title_word2">Mengatakan \“I Love You\” pada pasangan</string>
+    <string name="title_word3">Memberikan pujian di media sosial</string>
+    <string name="title_word4">Memberi barang/makanan lengkap dengan sweet note-nya</string>
+    <string name="title_word5">Mengatakan \“terima kasih karena sudah…\”</string>
+
+    <string name="title_touch1">Menyandarkan kepala di bahu pasangan</string>
+    <string name="title_touch2">Duduk berdekatan</string>
+    <string name="title_touch3">Bergandengan tangan saat jalan bersama</string>
+    <string name="title_touch4">Merangkul atau memeluk</string>
+    <string name="title_touch5">Memainkan rambut pasangan</string>
+
+    <string name="title_gift1">Membelikan makanan kesukaan</string>
+    <string name="title_gift2">Ingat ulang tahun pasangan</string>
+    <string name="title_gift3">Memberi hadiah kecil atas suatu pencapaian</string>
+    <string name="title_gift4">Memberi oleh-oleh setelah berpergian</string>
+    <string name="title_gift5">Membuat homemade gift untuk pasangan</string>
+
+    <string name="title_time1">Pergi jalan-jalan dengan pasangan</string>
+    <string name="title_time2">Ngobrol tanpa memegang HP</string>
+    <string name="title_time3">Olahraga bersama</string>
+    <string name="title_time4">Menelepon untuk menanyakan keadaan</string>
+    <string name="title_time5">Menemani pasangan mengerjakan tugas</string>
+
+    <string name="title_service1">Memasak buat pasangan</string>
+    <string name="title_service2">Membantu menyiapkan keperluan untuk pergi</string>
+    <string name="title_service3">Membantu dalam suatu pekerjaan</string>
+    <string name="title_service4">Menjemput pasangan dari suatu tempat</string>
+    <string name="title_service5">Membantu mengangkat barang</string>
+
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_judulatas"
+        android:padding="20dp">
+
+        <TextView
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#adad85"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Sukacitaku"
+            android:textColor="#526c97"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:flexDirection="column"
+            app:justifyContent="center">
+
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/heart_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:wlv_borderColor="#526c97"
+                android:layout_margin="20dp"
+                app:wlv_borderWidth="5dp"
+                app:wlv_titleBottomColor="#526c97"
+                app:wlv_progressValue="0"
+                app:wlv_shapeType="circle"
+                app:wlv_waveColor="#fec0b4"
+                app:layout_alignSelf="center">
+
+            </me.itangqi.waveloadingview.WaveLoadingView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/quotes_sukacitaku_fix">
+            </ImageView>
+
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

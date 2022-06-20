@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flexDirection="column"
+        app:justifyContent="center">
+
+
+        <ImageView
+            android:id="@+id/img_vis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="50%"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quotes_pengantartes_2"/>
+
+        <Button
+            style="@style/TestBtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/start_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanjut" />
+
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+</LinearLayout>

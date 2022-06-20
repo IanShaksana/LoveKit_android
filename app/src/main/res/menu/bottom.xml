@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_Home"
+        android:icon="@drawable/icon_menu_1_beranda"
+        android:title="Beranda"/>
+
+    <item
+        android:id="@+id/nav_key"
+        android:icon="@drawable/icon_menu_2_5bk"
+        android:title="Kunci"/>
+
+    <item
+        android:id="@+id/nav_tank"
+        android:icon="@drawable/icon_menu_3_tangkikasih"
+        android:title="Sukacitaku"/>
+
+    <item
+        android:id="@+id/nav_Offer"
+        android:icon="@drawable/icon_menu_4_profil"
+        android:title="Profil"/>
+
+
+
+    <!--
+        <item
+            android:id="@+id/nav_Create"
+            android:icon="@drawable/create"
+            android:title="testing"/>
+
+
+      <item
+          android:id="@+id/nav_List"
+          android:icon="@drawable/list"
+          android:title="Result"/>
+
+      <item
+          android:id="@+id/nav_Inbox"
+          android:icon="@drawable/inbox"
+          android:title="Suggestion"/>
+
+
+          <item
+              android:id="@+id/nav_Board"
+              android:icon="@drawable/board"
+              android:title="Board"/>
+
+
+    -->
+    </menu>

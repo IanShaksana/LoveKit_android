@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RndBtn">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ImgBtn">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@drawable/round_button2</item>
+        <item name="android:textColor">#526c97</item>
+    </style>
+
+    <style name="TestBtn">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@drawable/round_edit_text</item>
+        <item name="android:textColor">#526c97</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="text_penjelasan1">
+        <item name="android:textColor">#526c97</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">10dp</item>
+
+    </style>
+
+    <style name="text_point">
+        <item name="android:textColor">#526c97</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+    </style>
+
+    <style name="text_penjelasan_contoh">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">#526c97</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/round_edit_text</item>
+    </style>
+
+    <style name="warning_heads">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">#526c97</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:background">@drawable/border1</item>
+    </style>
+
+    <style name="warning_body">
+        <item name="android:textColor">#526c97</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:background">@drawable/border2</item>
+    </style>
+
+
+
+
+    <style name="MyDenseOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="materialThemeOverlay">@style/MyThemeOverlayOutlinedDense</item>
+
+    </style>
+
+    <style name="MyThemeOverlayOutlinedDense">
+        <item name="editTextStyle">@style/MyTextInputEditText_outlinedBox_dense_h
+        </item>
+    </style>
+
+    <style name="MyTextInputEditText_outlinedBox_dense_h" parent="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash2</item>
+    </style>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_judulatas"
+        android:padding="20dp">
+
+        <TextView
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#adad85"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Beranda"
+            android:textColor="#526c97"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:fontFamily="@font/poppins_regular"
+                android:id="@+id/open_partner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                style="@style/RndBtn"
+                android:text="Tentang Partnerku">
+            </Button>
+
+            <Button
+                android:fontFamily="@font/poppins_regular"
+                android:id="@+id/open_commitment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                style="@style/RndBtn"
+                android:text="Komitmenku">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/open_test"
+                style="@style/RndBtn"
+                android:text="Mengulangi Tes"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_margin="10dp">
+            </Button>
+
+            <Button
+                android:fontFamily="@font/poppins_regular"
+                android:id="@+id/LogOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                style="@style/RndBtn"
+                android:text="Keluar">
+            </Button>
+
+
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/heart_fill"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:wlv_borderColor="@color/cardview_dark_background"
+                app:wlv_borderWidth="2dp"
+                app:wlv_progressValue="0"
+                app:wlv_shapeType="circle"
+                app:wlv_waveColor="@color/colorAccent">
+
+            </me.itangqi.waveloadingview.WaveLoadingView>
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100">
+
+            </androidx.appcompat.widget.AppCompatSeekBar>
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:id="@+id/reg_name"
+                        android:inputType="text"
+                        android:textColorHint="#526c97"
+                        android:hint="Nama Lengkap"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/reg_username"
+                        android:inputType="text"
+                        android:textColorHint="#526c97"
+                        android:fontFamily="@font/poppins_regular"
+                        android:hint="Nama Panggilan"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/reg_gender"
+                        android:clickable="true"
+                        android:fontFamily="@font/poppins_regular"
+                        android:cursorVisible="false"
+                        android:focusableInTouchMode="false"
+                        android:inputType="text"
+                        android:textColorHint="#526c97"
+                        android:hint="Jenis Kelamin"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/reg_dob"
+                        android:clickable="true"
+                        android:cursorVisible="false"
+                        android:focusableInTouchMode="false"
+                        android:inputType="text"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColorHint="#526c97"
+                        android:hint="Tanggal Lahir"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/reg_telp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:inputType="number"
+                        android:textColorHint="#526c97"
+                        android:hint="Telepon"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/reg_email"
+                        android:fontFamily="@font/poppins_regular"
+                        android:inputType="text"
+                        android:textColorHint="#526c97"
+                        android:hint="Email"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    app:endIconTint="#526c97"
+                    app:endIconMode="password_toggle"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/reg_pass"
+                        android:fontFamily="@font/poppins_regular"
+                        android:inputType="textPassword"
+                        android:textColorHint="#526c97"
+                        android:hint="Kata Sandi"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/t8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_edit_text"
+                    style="@style/MyDenseOutlined"
+                    app:boxBackgroundMode="none"
+                    app:hintEnabled="false"
+                    app:endIconTint="#526c97"
+                    app:endIconMode="password_toggle"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/reg_pass_confirm"
+                        android:inputType="textPassword"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColorHint="#526c97"
+                        android:hint="Konfirmasi Kata Sandi"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:fontFamily="@font/poppins_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register"
+                    android:textAllCaps="false"
+                    android:layout_margin="15dp"
+                    android:text="Buat Akun"
+                    android:background="@drawable/round_button"
+                    android:textColor="#ffffff">
+                </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>

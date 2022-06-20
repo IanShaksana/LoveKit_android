@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/visual_penjelasan_service"/>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:alignContent="center"
+                app:alignItems="center"
+                app:flexDirection="column"
+                app:flexWrap="wrap">
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/text_penjelasan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/penjelasan_service1"/>
+
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/text_penjelasan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/penjelasan_service2"/>
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/text_penjelasan_contoh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_edit_text"
+                    android:text="CONTOH:"
+                    app:layout_alignSelf="flex_start"/>
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/text_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suggestion_service1"/>
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/text_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suggestion_service2"/>
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/text_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suggestion_service3"/>
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/text_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suggestion_service4"/>
+
+                <TextView
+                    style="@style/warning_heads"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HAL YANG PERLU DIHINDARI:"/>
+
+                <TextView
+                    android:fontFamily="@font/poppins_regular"
+                    style="@style/warning_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/warning_service1"/>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

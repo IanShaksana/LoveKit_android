@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_judulatas"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#adad85"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Komitmenku"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="#526c97"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion1"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/TestBtn"
+        android:text="suggestion1"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion2"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/TestBtn"
+        android:text="suggestion2"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion3"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/TestBtn"
+        android:text="suggestion3"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion4"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/TestBtn"
+        android:text="suggestion4"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion5"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/TestBtn"
+        android:text="suggestion5"
+        android:layout_margin="10dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion6"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/RndBtn"
+        android:text="Komitmen Versi Aku"
+        android:layout_margin="10dp">
+    </Button>
+
+
+</LinearLayout>
